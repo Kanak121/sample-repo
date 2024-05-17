@@ -1,0 +1,37 @@
+cd "path"
+git add <file>
+git init
+git show status
+git add --a(add whats not added) for Linux -m(windows)
+git commit -m "value" (add commit)
+git log (SHOW ALL COMMITS)
+ if u want to commit 1 from many write git commit "name"
+rm -rf .git(delete repos git)
+git clone "url"s
+copy nul and touch to make new file
+touch.gitignore(ignore files)
+
+GIT DIFF - compare working directory with staging area
+gti commit -a -m {direct commit}
+
+git rm "file name {remove file}
+git mv "file name" "new name" (convert old name to new)
+git rm --cached "file name" {untrack file}
+git log -p {show vhanges}
+git log --stat
+git log --pretty=one line {takes everything in  oneline}
+git log --since=2.years
+ git log --pretty=format:"%h --%an"{name of author}
+git commit --amend
+git restore --staged <file name> {unstage file}
+git  checkout --"kanak.txt" {if something deleted it brings back]
+git remote {add remote}
+
+##branching in git
+git checkout -b <name of branch> {create new branch}
+git branch -v (show branches)
+git branch --merged  (show already merged branches)
+git branch--no --merged
+git branch -d devlop =>delete branch (if devlop is not merged it will give error)
+
+
