@@ -17,7 +17,7 @@ GIT DIFF - compare working directory with staging area
 git rm "file name {remove file}
 git mv "file name" "new name" (convert old name to new)
 git rm --cached "file name" {untrack file}
-git log -p {show vhanges}
+git log -p {show changes}
 git log --stat
 git log --pretty=one line {takes everything in  oneline}
 git log --since=2.years
