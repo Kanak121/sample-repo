@@ -12,7 +12,7 @@ copy nul and touch to make new file
 touch.gitignore(ignore files)
 
 GIT DIFF - compare working directory with staging area
-gti commit -a -m {direct commit}
+
 
 git rm "file name {remove file}
 git mv "file name" "new name" (convert old name to new)
